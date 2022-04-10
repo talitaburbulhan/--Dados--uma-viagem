@@ -1,0 +1,216 @@
+* {
+
+    box-sizing: border-box;
+    width: auto;
+    
+}
+
+:root {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color:whitesmoke;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15em;
+}
+
+.transfusao {
+
+    display: flex;
+    max-width: 1100px;
+    margin-left: auto;     
+    margin-right: auto;
+    
+}
+
+
+.banco:hover{
+    
+    /*fill: whitesmoke; */
+    opacity: 0.5; /* opacity não tem unidade de medida. É um valor de 0 a 1*/
+    cursor: pointer;
+    transition: opacity 0.3s linear;
+}
+
+.st10 {
+
+    pointer-events: none;
+}
+
+.bg {
+    display: flex;
+    width: 100%;
+    margin-left: auto;     
+    margin-right: auto;
+
+}
+
+.link-larissa {
+
+    color:#97274B;
+    font-weight: bold;
+}
+
+.link-gabrielaS {
+
+    color:#1563AD;
+    font-weight: bold;
+}
+
+.link-desconhecidos{
+    
+    color:black;
+    font-weight: bold;
+
+}
+
+.destaque-titulo{
+
+    display: inline;
+    color: #5EA8DD;
+    font-weight: bold;
+    font-size: 2rem;;
+}
+
+.banco1:hover{
+    fill: #DEC150;
+}
+
+.retrato {
+width: 50%;
+border-radius: 50%;
+display:block;
+margin: 0;
+
+}
+
+h1 {
+    text-align: center; /*  faz com que o texto fique alinhado dentro do elemento*/
+    margin-top: 50px;
+    margin-left: auto;      /*a combinação das duas margens faz com que o elmento fique centralizado, não texto dentor do elemento*/
+    margin-right: auto;
+    font-size: 5rem;
+    font-weight: 300;
+    
+
+}
+
+h2{
+    text-align: justify;
+    margin-left: auto;     
+    margin-right: auto;
+    font-size: 2rem;
+    font-weight: 300;
+    max-width: 1100px;
+
+}
+
+p {
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px;
+    font-weight: 200;
+    margin-bottom: 5rem; /*o rem é o tamanho da fonte do :root e se eu nao tiver deifinido um tamanho , será considerado 16px. Nesse caso, o tamnho da margem é 5*16 = 80px*/
+    
+}
+
+.rodape {
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px;
+    font-weight: 200;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+
+
+p.vis{
+    max-width: 1200px;
+}
+
+p.vis2 {
+    /*text-indent: 3em;*/
+    text-align: justify;
+}
+
+
+.cards {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+    flex-wrap: wrap; ele é uma propriedade do display flex , ele serviria para fazer o  que to fazendo com o grid */   
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    min-height: 400px;
+
+    /*colocar um media query*/
+      
+}
+
+.viajante {
+    /*border: 1px dotted red;*/
+    padding:2em;
+    display:none;
+}
+
+.visivel{
+    
+    display:block;
+
+}
+
+.cidadenascimento {
+    line-height: 1rem;
+}
+
+.nome-viajante {
+
+    color:#DC5E5E;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+
+}
+
+.viajante > p {  
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2d2d2d;
+    line-height: 1.3;
+    /*border: 1px dotted red;*/
+    margin: 0.5rem; 
+}
+
+.curiosidade2{
+    color: #5EA8DD;
+    font-weight:800;
+}
+
+* > span {
+
+    font-weight: 400;
+    color: #252526;
+}
+
+.bg-wrapper {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    max-height: 600px;
+    overflow: hidden;
+
+}
+
+.flourish-embed flourish-network {
+    background-color: black;
+    max-width: 1920px;
+}
