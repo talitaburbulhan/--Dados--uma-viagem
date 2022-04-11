@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15em;
+    margin-bottom: 5em;
 }
 
 .transfusao {
@@ -75,7 +75,7 @@ body {
     display: inline;
     color: #5EA8DD;
     font-weight: bold;
-    font-size: 2rem;;
+    font-size: 1.5rem;;
 }
 
 .banco1:hover{
@@ -102,7 +102,7 @@ h1 {
 }
 
 h2{
-    text-align: justify;
+    text-align: center;
     margin-left: auto;     
     margin-right: auto;
     font-size: 2rem;
